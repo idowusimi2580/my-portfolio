@@ -75,9 +75,15 @@
 
 
 
+
 @media (max-width: 768px){
-    .section1{
+    .section1 {
         flex-flow: column;
         justify-content: right;
     } 
+    .section2 {
+        flex-flow: column;
+        justify-content: center;
+        padding: 2rem;
+    }
 }
