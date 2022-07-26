@@ -28,11 +28,15 @@
     padding: 2rem;
     display: flex;
     border-bottom: .01em solid rgb(124, 124, 124) ;
+    margin: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .section11 {
     width: 33.33%;
     justify-content: end;
+    flex-flow: row nowrap;
 }
 
 .section12 {
@@ -44,4 +48,36 @@
 .section13 {
     width: 33.33%;
     justify-content: start;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    padding: 26rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.section21 {
+    display: flex;
+    width: 50%;
+}
+
+.section22 {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .section1{
+        flex-flow: column;
+        justify-content: right;
+    } 
 }
